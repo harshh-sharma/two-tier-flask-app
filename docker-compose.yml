@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: harshsharma1001/two-tier-flask-app:latest
+    image: python:3.9-slim
     container_name: flask-app
     ports:
       - "5000:5000"
